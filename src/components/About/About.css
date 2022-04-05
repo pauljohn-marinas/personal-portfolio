@@ -1,5 +1,105 @@
 section.about{
     width: 100%;
     background-color: #452BC7;
-    height: 30rem;
+    height: 45rem;
+    color:#fff;
+    padding: 10em 50em;
+    text-align: center;
+}
+.about-heading{
+    font-size: 3em;
+    font-weight: 700;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    margin-bottom: 1em;
+}
+.about-content{
+    font-size: 1.8em;
+    font-family: Rubik , Arial, Helvetica, sans-serif;
+    line-height: 2em;
+}
+
+/* ============= MEDIA QUERIES LARGE SCREENS DEVICES =============== */
+@media screen and (max-width: 1680px){
+    section.about{
+        padding: 10em 30em;
+    }
+}
+@media screen and (max-width: 1440px){
+    section.about{
+        padding: 10em 30em;
+    }
+}
+/* ============= MEDIA QUERIES TABLET/SMALL SCREENS DEVICES =============== */
+@media screen and (max-width: 1200px){
+    section.about{
+        padding: 10em 30em;
+    }
+    .about-heading{
+        font-size: 2.5em;
+        margin-bottom: 1em;
+    }
+    .about-content{
+        font-size: 1.6em;
+        line-height: 1.8em;
+    }
+}
+@media screen and (max-width: 1024px){
+    section.about{
+        padding: 7em 20em;
+    }
+    .about-heading{
+        font-size: 2.5em;
+        margin-bottom: 1em;
+    }
+    .about-content{
+        font-size: 1.6em;
+        line-height: 1.8em;
+    }
+}
+/* ============= MEDIA QUERIES MOBILE DEVICES =============== */
+@media screen and (max-width: 768px){
+    section.about{
+        padding: 7em 15em;
+    }
+    .about-heading{
+        font-size: 2.5em;
+        margin-bottom: 1em;
+    }
+    .about-content{
+        font-size: 1.6em;
+        line-height: 1.8em;
+    }
+}
+@media screen and (max-width: 600px){
+    section.about{
+        padding: 7em 12em;
+        height: 55rem;
+    }
+    .about-heading{
+        font-size: 2.5em;
+        margin-bottom: 1em;
+    }
+    .about-content{
+        font-size: 1.6em;
+        line-height: 1.8em;
+    }
+}
+@media screen and (max-width: 425px){
+    section.about{
+        padding: 7em 5em;
+        height: 60rem;
+    }
+    .about-heading{
+        font-size: 2.5em;
+        margin-bottom: 1em;
+    }
+    .about-content{
+        font-size: 1.6em;
+        line-height: 1.8em;
+    }
+}
+@media screen and (max-width: 320px){
+    section.about{
+        height: 75rem;
+    }
 }

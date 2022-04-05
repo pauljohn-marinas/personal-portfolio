@@ -5,14 +5,14 @@ nav,
 nav{
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 6rem;
+    padding: 2rem 10rem;
     
 }
 .nav-links{
     list-style: none;
 }
 .nav-links li {
-    padding: 0 1.6rem;
+    padding: 0 0 0 3rem;
 }
 .nav-links a{
     font-size: 1.2rem;
@@ -22,4 +22,50 @@ nav{
 }
 .logo img {
     width: 4.5rem;
+}
+.navbar-sm{
+    display: none;
+}
+.nav-links-sm{
+    display: none;
+}
+.hamburger-bar{
+    cursor: pointer;
+}
+
+/* ============= MEDIA QUERIES LARGE SCREENS DEVICES =============== */
+@media screen and (max-width: 1440px){
+    nav{
+        padding: 2rem 8rem;
+    }
+}
+/* ============= MEDIA QUERIES TABLET/SMALL SCREENS DEVICES =============== */
+@media screen and (max-width: 1024px){
+    nav{
+        padding: 2rem 4rem;     
+    }
+    .nav-links li {
+        padding: 0 0 0 2.5rem;
+    }
+    .nav-links a{
+        font-size: 1rem;
+    }
+    .logo img {
+        width: 3.5rem;
+    }
+    
+}
+/* ============= MEDIA QUERIES MOBILE DEVICES =============== */
+@media screen and (max-width: 768px){
+    .nav-links{
+        display: none;
+    }
+    .navbar-sm{
+        display: block;
+    }
+}
+@media screen and (max-width: 600px){
+    nav{
+        padding: 2rem 3rem;     
+    }
 }

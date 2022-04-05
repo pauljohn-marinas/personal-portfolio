@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Rubik:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Rubik:wght@300;700&display=swap');
 *,
 *::before,
 *::after{
@@ -11,120 +10,17 @@
 a{
     text-decoration: none;
 }
-
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    display: none;
+}
 body{
     font-size: 62.5%;
     background-color: #F3F3F3;
 }
 
-header{
-    width: 100%;
-    height: 100vh;
-}
-.content{
-    width: 100%;
-    padding: 6rem 6rem;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
-.header-image{
-    width: 65%;
-}
-
-.ellipse{
-    width: 12rem;
-    height: 12rem;
-    background-image: url("/public/ellipse.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 4rem;
-    left: 4rem;
-    z-index: -1;
-
-}
-
-h1{
-    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
-    font-size: 7rem;
-    line-height: 6rem;
-    position: absolute;
-    top:15%;
-    color: #1D375C;
-}
-
-.header-content span{
-    font-family: Rubik , Arial, Helvetica, sans-serif;
-    margin-top: 18rem;
-    display: block;
-    font-size: 1.8rem;
-    color: #A8B2BC;
-}
-
-.cta{
-
-    width: 100%;
-    margin-top: 3.5rem;
-}
-
-.btn{
-    text-transform: uppercase;
-    font-family: Rubik , Arial, Helvetica, sans-serif;
-    display: inline-block;
-    font-size: 1.4rem;
-    width: 13rem;
-    height: 3.6rem;
-    text-align: center;
-    border-radius: 6rem;
-    margin-right: 1rem;
-    padding-top: .8rem;
-}
-
-.btn-primary{
-    background-color: #452BC7;
-    color: #fff;
-    transition: all 300ms ease-in;
-}
-
-.btn-secondary{
-    border: .15rem solid #452BC7;
-    color: #452BC7;
-    transition: all 300ms ease-in;
-}
-.btn-primary:hover{
-    background-color: #21099b;
-}
-.btn-secondary:hover{
-    background-color: #452BC7;
-    color: #fff;
-}
-
-.social-icons{
-    display: flex;
-    list-style: none;
-    font-size: 1.5rem;
-    color: #1D375C;
-    margin-top:  1.5rem;
-}
-
-.social-icons li {
-    width: 3.5rem;
-    height: 3.5rem;
-    border: .15rem solid #1D375C;
-    border-radius:50%;
-    margin-right: 2rem;
-    text-align: center;
-    padding-top: .9rem;
-}
-
-.social-icons a:visited,
-.social-icons a:active,
-.social-icons a:link{
-    color: #1D375C;
-}
 
 
 

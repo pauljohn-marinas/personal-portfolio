@@ -1,0 +1,23 @@
+.project{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15em 0;
+}
+.project-heading{
+    font-size: 3em;
+    font-weight: 700;
+    font-family: Rubik, Arial, Helvetica, sans-serif;
+    color: #353535;
+    margin-bottom: 3em;
+}
+
+.container{
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3em;
+}
