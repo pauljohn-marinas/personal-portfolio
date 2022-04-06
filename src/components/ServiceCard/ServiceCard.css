@@ -40,3 +40,32 @@
     line-height: 2.5em;
     padding: 0 5em;
 }
+
+
+/* ============= MEDIA QUERIES LARGE SCREENS DEVICES =============== */
+@media screen and (max-width: 1440px){
+
+}
+/* ============= MEDIA QUERIES TABLET/SMALL SCREENS DEVICES =============== */
+@media screen and (max-width: 1024px){
+
+}
+@media screen and (max-width: 768px){
+    .card{
+        width: 100%;
+        height: auto;
+        padding: 8em 3em;
+    }
+    .card:nth-child(2){
+        border-right: none;
+        border-left: none;
+        border-bottom: .1em solid rgba(168, 178, 188, 0.8);
+    }
+    .card:nth-child(1){
+        border-bottom: .1em solid rgba(168, 178, 188, 0.8);
+    }
+}
+/* ============= MEDIA QUERIES MOBILE DEVICES =============== */
+@media screen and (max-width: 600px){
+
+}

@@ -104,3 +104,21 @@ form{
 .btn-submit:hover{
     background-color: #21099b;
 }
+
+/* ============= MEDIA QUERIES LARGE SCREENS DEVICES =============== */
+@media screen and (max-width: 1440px){
+
+}
+/* ============= MEDIA QUERIES TABLET/SMALL SCREENS DEVICES =============== */
+@media screen and (max-width: 1024px){
+
+}
+@media screen and (max-width: 768px){
+    .split-contact{
+        flex-direction: column;
+    }
+}
+/* ============= MEDIA QUERIES MOBILE DEVICES =============== */
+@media screen and (max-width: 600px){
+
+}
