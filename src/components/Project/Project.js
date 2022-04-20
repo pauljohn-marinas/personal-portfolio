@@ -25,8 +25,8 @@ const Projects = () => {
       id: 3,
       title: 'Aniview',
       image: {proj3},
-      url: 'test url',
-      source: 'test source'
+      url: 'https://toplevelvideo.com/',
+      source: null
     }
   ];
   return (

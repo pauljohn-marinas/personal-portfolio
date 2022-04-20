@@ -9,7 +9,7 @@ const ProjectCard = ({title, image, source, url}) => {
       </div>
       <div className="overlay-container">
         <h4>{title}</h4>
-        <a href={source} target="_blank" className='btn-project'>Github</a>
+        <a href={source} style={{ display: source == null && 'none' }} target="_blank" className='btn-project'>Github</a>
         <a href={url} target="_blank" className='btn-project'>View Site</a>
       </div>
     </div>

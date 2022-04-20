@@ -1,6 +1,6 @@
 .card{
     width: 33.33%;
-    height: 70em;
+    height: auto;
     text-align: center;
     padding: 8em 3em;
 }
@@ -39,16 +39,25 @@
     color: #353535;
     line-height: 2.5em;
     padding: 0 5em;
+    
 }
 
 
 /* ============= MEDIA QUERIES LARGE SCREENS DEVICES =============== */
 @media screen and (max-width: 1440px){
-
+    
 }
 /* ============= MEDIA QUERIES TABLET/SMALL SCREENS DEVICES =============== */
 @media screen and (max-width: 1024px){
-
+    .card{
+        padding: 4em 2em;
+    }
+    .card-info{
+        margin-bottom: 2em;
+    }
+    .skills{
+        padding: 0 2em;
+    }
 }
 @media screen and (max-width: 768px){
     .card{
@@ -67,5 +76,32 @@
 }
 /* ============= MEDIA QUERIES MOBILE DEVICES =============== */
 @media screen and (max-width: 600px){
+    .card{
+        padding: 4em 2em;
+    }
+    .skills{
+        padding: 0 3em;
+    }
+    .card-info{
+        margin-bottom: 2em;
+    }
+}
+@media screen and (max-width: 420px){
+    .card{
+        padding: 4em 2em;
+    }
+    .card-info{
+        margin-bottom: 2em;
+    }
+    .skills{
+        line-height: 2em;
+        text-align: center;
+        padding: 0 3em;
+    }
+}
 
+@media screen and (max-width: 320px){
+    .skills{
+        padding: 0;
+    }
 }

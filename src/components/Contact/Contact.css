@@ -107,11 +107,15 @@ form{
 
 /* ============= MEDIA QUERIES LARGE SCREENS DEVICES =============== */
 @media screen and (max-width: 1440px){
-
+    .contact{
+        width: 65%;
+    }
 }
 /* ============= MEDIA QUERIES TABLET/SMALL SCREENS DEVICES =============== */
 @media screen and (max-width: 1024px){
-
+    .contact{
+        width: 80%;
+    }
 }
 @media screen and (max-width: 768px){
     .split-contact{
@@ -120,5 +124,11 @@ form{
 }
 /* ============= MEDIA QUERIES MOBILE DEVICES =============== */
 @media screen and (max-width: 600px){
-
+    .contact{
+        width: 80%;
+        padding: 5em 0;
+    }
+    .contacts-container{
+        padding: 4em 1em;
+    }
 }

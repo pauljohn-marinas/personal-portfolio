@@ -7,7 +7,7 @@ import {motion} from 'framer-motion';
 import  CV from '../../assets/cv.jpg'
 
 const Header = () => {
-    const heading = 'Hi, \nIm Paul John, \nweb developer.';
+    const heading = `Hi, \nI'm Paul John, \nweb developer.`;
     return (
         <header>
             <Navigation />

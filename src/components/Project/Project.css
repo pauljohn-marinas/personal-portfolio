@@ -37,5 +37,7 @@
 }
 /* ============= MEDIA QUERIES MOBILE DEVICES =============== */
 @media screen and (max-width: 600px){
-
+    .project{
+        padding:10em 0 5em 0;
+    }
 }
