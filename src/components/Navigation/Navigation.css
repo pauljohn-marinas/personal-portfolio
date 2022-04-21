@@ -6,7 +6,6 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 2rem 10rem;
-    
 }
 .nav-links{
     list-style: none;
@@ -25,13 +24,49 @@ nav{
 }
 .navbar-sm{
     display: none;
+    position: relative;
 }
 .nav-links-sm{
     display: none;
+    position: absolute;
+    background-color: #452BC7;
+    right: 2px;
+    z-index: 10;
+    top: 45px;
+}
+.nav-links-sm::before{
+    content: '';
+    width: 0;
+    height: 0;
+    border: 15px solid transparent;
+    border-right: 15px solid #452BC7;
+    position: absolute;
+    top: -15px;
+    right: 0;
+    z-index: -1;
+
+}
+.nav-links-sm li{
+    padding: 2em 6em;
+    cursor: pointer;
+}
+
+.nav-links-sm li:hover{
+    background-color: #21099B;
+}
+
+.nav-links-sm a{
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    
 }
 .hamburger-bar{
     cursor: pointer;
 }
+
+
 
 /* ============= MEDIA QUERIES LARGE SCREENS DEVICES =============== */
 @media screen and (max-width: 1440px){
