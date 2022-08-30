@@ -4,6 +4,7 @@ import ProjectCard from '../ProjectCard/ProjectCard'
 import proj1 from '../../assets/project1.jpg'
 import proj2 from '../../assets/project2.jpg'
 import proj3 from '../../assets/project3.jpg'
+import proj4 from '../../assets/project4.jpg'
 
 const Projects = () => {
   const projects = [
@@ -18,8 +19,8 @@ const Projects = () => {
       id: 2,
       title: 'Chat App',
       image: {proj2},
-      url: 'test url',
-      source: 'test source'
+      url: '#',
+      source: 'https://github.com/pauljohn-marinas/react-chat-app'
     },
     {
       id: 3,
@@ -27,6 +28,13 @@ const Projects = () => {
       image: {proj3},
       url: 'https://toplevelvideo.com/',
       source: null
+    },
+    {
+      id: 3,
+      title: 'Cryptoverse',
+      image: {proj4},
+      url: '#',
+      source: 'https://github.com/pauljohn-marinas/crypto-app'
     }
   ];
   return (

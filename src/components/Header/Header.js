@@ -4,7 +4,7 @@ import Svg from '../Svg/Svg';
 import Navigation from '../Navigation/Navigation';
 import { FaLinkedinIn, FaGithubAlt, FaEnvelope } from "react-icons/fa";
 import {motion} from 'framer-motion';
-import  CV from '../../assets/cv.jpg'
+import  CV from '../../assets/cv.pdf'
 
 const Header = () => {
     const heading = `Hi, \nI'm Paul John, \nweb developer.`;

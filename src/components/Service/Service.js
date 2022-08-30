@@ -22,7 +22,7 @@ const Service = () => {
         <ServiceCard 
           title ='Back-end Developer' 
           image={backend}
-          info = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut placerat arcu.'
+          info = 'I am passionate about building excellent software that improves the lives of those around me.'
           skills= 'PHP, MySQL, PostgreSQL, Laravel, CodeIgniter, Git, API'
         />
     </section>
